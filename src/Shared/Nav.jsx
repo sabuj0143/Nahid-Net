@@ -32,7 +32,7 @@ const Nav = () => {
             </div>
             <div className="navbar-end">
                 <a><FaSearch></FaSearch> </a>
-                <a><FaShoppingCart className="mx-4"></FaShoppingCart> </a>
+                <a><FaShoppingCart className="mx-6"></FaShoppingCart> </a>
                 <a><FaUser></FaUser> </a>
             </div>
         </div>
