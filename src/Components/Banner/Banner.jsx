@@ -11,9 +11,6 @@ import { Parallax, Pagination, Navigation } from "swiper";
 import './Banner.css';
 
 
-
-
-
 const Banner = () => {
   return (
     <>
@@ -54,40 +51,11 @@ const Banner = () => {
             <h4 className="uppercase font-bold">$39.99 <span className="lowercase">/mo</span></h4>
           </div>
           <div className="text" data-swiper-parallax="-100">
-            <p>For a limited time, double the speed for just $5 More.</p>
+            <p className="text-white">For a limited time, double the speed for just $5 More.</p>
           </div>
           <div className="text" data-swiper-parallax="-100">
-            <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-md mt-4">get offer now <FaArrowRight className="ml-2" /></button>
+            <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-md mt-4"><span className="text-white">get offer now</span> <FaArrowRight className="ml-2 text-white" /></button>
           </div>
-        </SwiperSlide>
-        <SwiperSlide className="md:mt-10 md:ml-8">
-          <div className="subtitle" data-swiper-parallax="-200">
-            <h4>Switch to internet Service you will love</h4>
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            <h4 className="uppercase">Internet 100 for</h4>
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            <h4 className="uppercase font-bold">$39.99 <span className="lowercase">/mo</span></h4>
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>For a limited time, double the speed for just $5 More.</p>
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-md mt-4">get offer now <FaArrowRight className="ml-2" /></button>
-          </div>
-          {/* <div className="subtitle" data-swiper-parallax="-200">
-            <h1 className="text-2xl font-bold mb-6">Switch to internet Service you will love</h1>
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              This is the place to learn about Nahid.net internet the high speed, and reliable internet collocation that lets you do what online.
-            </p>
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-md mt-4">get offer now <FaArrowRight className="ml-2" /></button>
-            <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-md mt-4">get <FaArrowRight className="ml-2" /></button>
-          </div> */}
         </SwiperSlide>
       </Swiper>
     </>
